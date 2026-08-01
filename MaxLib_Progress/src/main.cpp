@@ -7,14 +7,13 @@
 /*                                                                            */
 /*----------------------------------------------------------------------------*/
 
-#include "vex.h"
-
-using namespace vex;
+#include "main.h"
 
 // A global instance of competition
 competition Competition;
 
 // define your global instances of motors and other devices here
+
 
 /*---------------------------------------------------------------------------*/
 /*                          Pre-Autonomous Functions                         */
@@ -27,9 +26,7 @@ competition Competition;
 /*---------------------------------------------------------------------------*/
 
 void pre_auton(void) {
-
-  // All activities that occur before the competition starts
-  // Example: clearing encoders, setting servo positions, ...
+  
 }
 
 /*---------------------------------------------------------------------------*/
